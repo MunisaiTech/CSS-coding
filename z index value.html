@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>z index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .special{
+            height: 200px;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        #p1{
+            background-color:violet ;
+            position:absolute;
+            top: 27px;
+            left: 20px;
+            z-index: 9;
+        }
+        #p2{
+            background-color: blue;
+            position:absolute;
+            top: 20px;
+            left: 2px;
+            z-index: 7;
+        }
+    </style>
+   
+</head>
+<body>
+    <div id="p1" class="special"></div>
+    <div id="p2" class="special"></div>
+</body>
+</html>
